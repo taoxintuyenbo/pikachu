@@ -34,5 +34,35 @@ namespace NguyenTaDinhDuy_2122110456
             Arcticle07 art07 = new Arcticle07();
                 art07.ShowDialog();
         }
+
+        //private void button2_Click(object sender, EventArgs e)
+        //{
+        //    Arctical08 art08 = new Arctical08();    
+        //        art08.ShowDialog();
+        //}
+
+        private void button5_Click(object sender, EventArgs e)
+        {
+            Article10 art10 = new Article10();
+            art10.ShowDialog();
+        }
+
+        private void button7_Click(object sender, EventArgs e)
+        {
+            Article11 art11 = new Article11();      
+            art11.ShowDialog();
+        }
+
+        private void button6_Click(object sender, EventArgs e)
+        {
+            ComboBox combo = new ComboBox();
+            combo.ShowDialog();
+        }
+
+        private void button8_Click(object sender, EventArgs e)
+        {
+            Article14 art14 = new Article14();
+            art14.ShowDialog();
+        }
     }
 }
